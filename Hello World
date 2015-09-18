@@ -1,0 +1,25 @@
+// Hello World : Console Application
+// Start a new empty ConsoleApplication and add this file to it.
+
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+char answer;
+
+int main()
+{
+	cout << "Hello World!" << endl;
+	cout << "Extend(y/n) : ";
+	cin >> answer;
+
+	if(answer == 'y')
+	{
+		cout << "a hello world program on c++, The first position when learning a new programming language" << endl;
+			cout << "End";
+	cin >> answer;
+	}
+	else{
+		return 0;
+	}
+}
